@@ -1,0 +1,304 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "enableFieldForDakoti",
+            "label": "Enable Field For Dakoti",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "businessTitle.AssignmentName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "businessTitle.AssignmentNumber": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "businessTitle.AssignmentTypeMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "businessTitle.LegalEmployerName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "businessTitle.AssignmentUserStatus": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ActionName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ReasonName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentCategoryMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentNumber": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentSequence": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.StandardWorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.UserStatus": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentStatusTypeCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentType": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.BargainingUnitMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.BargainingUnitCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.CollectiveAgreementName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.Country": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.DepartmentTitle": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.DepartmentName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.DerivedStandardWorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.DerivedStandardWorkingHoursFrequency": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.EndTime": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.FTEValue": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.FullPartTimeMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.GradeName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.GradeCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.HeadValue": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.EnterpriseStartDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.HourlySalariedMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.JobId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.LegalEmployerName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.LegislationCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.LocationName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.LocationCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.NoticePeriod": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.PersonNumber": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.UserPersonType": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.PositionName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.PositionCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ProbationEndDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ProbationPeriod": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ProbationPeriodUnitMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ProjectedEndDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ProposedUserPersonType": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.ProjectedStartDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.PermanentTemporaryMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.RetirementAge": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.DateStart": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.StartTime": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.UnionName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.RetirementDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.AssignmentTypeMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentInfo.NormalHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    }
+                },
+                "layouts": {
+                    "/businessTitle": {
+                        "hidden": {
+                            "value": false
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

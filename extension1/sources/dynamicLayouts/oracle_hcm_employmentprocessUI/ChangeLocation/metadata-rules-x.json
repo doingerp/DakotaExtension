@@ -1,0 +1,43 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "enablePositionSyncOption",
+            "label": "EnablePositionSyncOption",
+            "description": "Enable the position synchronization option",
+            "status": "active",
+            "overlay": {
+            },
+            "condition": {
+                "expression": true
+            }
+        },
+        {
+            "id": "hideNeedHelp",
+            "label": "HideNeedHelpAndSeniortyDate",
+            "description": "In Change Location hide tthe 'Seniorty dates' and 'Need help' screen",
+            "status": "active",
+            "overlay": {
+                "layouts": {
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/employmentSeniorityDatesAll_seniorityDatesV1": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

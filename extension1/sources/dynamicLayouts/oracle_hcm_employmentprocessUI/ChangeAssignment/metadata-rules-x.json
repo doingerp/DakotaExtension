@@ -1,0 +1,118 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "seniorityDatesIssue",
+            "label": "SeniorityDatesIssue",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "employmentSeniorityDatesAll.lengthOfService": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.SeniorityAttributeIdentifierName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.SeniorityBasisMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.SeniorityDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.ESSLastRunDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.TotalAdjustmentDays": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentSeniorityDatesAll.SeniorityDateCodeMeaning": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.EntryDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentSeniorityDatesAll.TotalSeniorityHours": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentSeniorityDatesAll.TotalAdjustmentHours": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentSeniorityDatesAll.enterpriseLengthOfService": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentSeniorityDatesAll.enterpriseSeniorityDate": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentSeniorityDatesAll.legalEmployerSeniorityDate": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentSeniorityDatesAll.legalEmployerLengthOfService": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                },
+                "layouts": {
+                    "/employmentSeniorityDatesAll_seniorityDatesV1": {
+                        "hidden": {
+                            "value": false
+                        }
+                    }
+                }
+
+            },
+            "condition": {
+                "expression": true
+            }
+        },
+        {
+            "id": "hideNeedHelpPage",
+            "label": "HideNeedHelpPage",
+            "description": "Hide the need help page",
+            "status": "active",
+            "overlay": {
+                "layouts": {
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

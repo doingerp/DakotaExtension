@@ -1,0 +1,32 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "hideSeniortityAndNeedHelpPage",
+            "label": "HideSeniorityAndNeedHelpPage",
+            "description": "Hide the 'Need help' and 'Seniority' Page for change Manager task",
+            "status": "active",
+            "overlay": {
+                "layouts": {
+                    "/employmentSeniorityDatesAll_seniorityDatesV1": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

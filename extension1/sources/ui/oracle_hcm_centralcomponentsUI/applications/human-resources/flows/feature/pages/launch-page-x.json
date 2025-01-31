@@ -1,0 +1,18 @@
+{
+  "description": "",
+  "variables": {},
+  "types": {},
+  "eventListeners": {},
+  "events": {},
+  "imports": {},
+  "extensions": {
+    "constants": {
+      "myClientGroupsAdditionalSearchFacets": {
+        "defaultValue": []
+      },
+      "myClientGroupsDefaultSearchFacets": {
+        "defaultValue": []
+      }
+    }
+  }
+}

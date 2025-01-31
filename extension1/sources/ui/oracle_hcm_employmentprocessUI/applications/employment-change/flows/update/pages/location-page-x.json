@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "variables": {},
+  "types": {},
+  "eventListeners": {},
+  "events": {},
+  "imports": {},
+  "extensions": {
+    "constants": {
+      "positionOverrideSectionGuidedJourneyTaskCodes": {
+        "defaultValue": []
+      }
+    }
+  }
+}

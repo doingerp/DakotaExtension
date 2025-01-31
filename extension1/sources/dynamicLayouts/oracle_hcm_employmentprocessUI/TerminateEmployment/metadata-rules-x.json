@@ -1,0 +1,67 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "terminationChanges",
+            "label": "TerminationChanges",
+            "description": "Hide LastWorkingDate Field and the Need help pages",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "employmentWorkRelationships.LastWorkingDate": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                },
+                "layouts": {
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        },
+        {
+            "id": "enableFieldsForDakota",
+            "label": "EnableFieldsForDakota",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "employmentWorkRelationships.RehireRecommendation": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.RehireRecommendation": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.RehireAuthorizerAssignmentId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentWorkRelationships.RehireAuthorizerAssignmentId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

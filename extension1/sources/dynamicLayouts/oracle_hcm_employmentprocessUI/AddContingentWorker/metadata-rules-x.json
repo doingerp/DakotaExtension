@@ -1,0 +1,71 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "test",
+            "label": "Test",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "actionOccurrences.BusinessUnitId": {
+                        "value": {
+                            "value": "[[ $modules.test.getActionOccurrencesBusinessUnitId({ $componentContext: $componentContext, $fields: $fields, $modules: $modules, $user: $user }) ]]"
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.emergencycontactlevel": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.ContactRelationshipId": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.__FLEX_Context": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                },
+                "referencedContext": {
+                    "generated": [
+                        "BusinessUnit"
+                    ]
+                }
+            },
+            "condition": {
+                "expression": "[[ $modules.test.runCondition({ $componentContext: $componentContext, $fields: $fields, $modules: $modules, $user: $user }) ]]",
+                "referencedFields": {
+                    "generated": [
+                        "contactRelationships.EmergencyContactFlag"
+                    ]
+                },
+                "referencedContext": {
+                    "generated": [
+                        "BusinessUnit"
+                    ]
+                }
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {
+        "modules": {
+            "test": {
+                "path": "./metadataRules/test"
+            }
+        }
+      },
+    "metadataRulesVersion": "16.1.8",
+    "@dt": {
+        "conditionFieldLabels": {}
+    }
+}

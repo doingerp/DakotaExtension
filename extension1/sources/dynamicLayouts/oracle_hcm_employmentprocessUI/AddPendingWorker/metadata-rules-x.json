@@ -1,0 +1,270 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "showEmergencyLevel",
+            "label": "ShowEmergencyLevel",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+
+                    "contactRelationships.contactRelationshipsDFF.emergencycontactlevel": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.ContactRelationshipId": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.__FLEX_Context": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+
+                }
+            },
+            "condition": {
+                "expression": "[[ $fields.contactRelationships.EmergencyContactFlag.$value() === true ]]",
+                "referencedFields": {
+                    "generated": [
+                        "contactRelationships.EmergencyContactFlag"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "enableFieldsForDakota",
+            "label": "EnableFieldsForDakota",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "addPersonWorkRelationships.AssignmentCategory": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.AssignmentStandardWorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.AssignmentStatusTypeId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.BargainingUnitCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.AssignmentName": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.BusinessUnitId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.CalculateWorkMeasureFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.CollectiveAgreementId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.DefaultExpenseAccount": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.DepartmentId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.StandardWorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.EndTime": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.FTEValue": {
+                        "hidden": {
+                            "value": false
+                        },
+                        "readonly": {
+                            "value": true
+                        }
+                    },
+                    "addPersonWorkRelationships.FullPartTime": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.GradeId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.HeadValue": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.HourlySalariedCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.JobId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.LocationId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.NoticePeriod": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.PositionId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.PrimaryAssignmentFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.ProbationEndDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.ProbationPeriod": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.ProposedUserPersonTypeId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.PermanentTemporary": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.ReportingEstablishmentId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.StandardAnnualWorkingDuration": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.StartTime": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.SynchronizeFromPositionFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.UnionId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.LabourUnionMemberFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.WorkerCategory": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.WorkAtHomeFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.NormalHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "addPersonWorkRelationships.ManagerFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.emergencycontactlevel": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "contactRelationships.contactRelationshipsDFF.ContactRelationshipId": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                },
+                "layouts": {
+                    "/Additional assignment info": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": "[[ true ]]"
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "metadataRulesVersion": "16.1.8",
+    "imports": {},
+    "@dt": {
+        "conditionFieldLabels": {}
+    }
+}

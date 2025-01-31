@@ -1,0 +1,39 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "hideFlexFieldandpages",
+            "label": "HideFlexFieldandpages",
+            "description": "Hide the Flex field in the assignment info page, hide the pages 'Work relationship info' and 'Need help' Pages",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "addPersonWorkRelationships.IdFlexNumber": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                },
+                "layouts": {
+                    "/addPersonWorkRelationships_wrInfo_workRelationshipInformation": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

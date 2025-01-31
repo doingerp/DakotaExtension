@@ -1,0 +1,159 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "enableFieldForDakota",
+            "label": "EnableFieldForDakota",
+            "description": "",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "employmentAssignments.AssignmentCategory": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.AssignmentNumber": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.AssignmentStandardWorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.BargainingUnitCode": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.BusinessTitle": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.BusinessUnitId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.CollectiveAgreementId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.DepartmentId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.DerivedStandardWorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.FTE": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.FullPartTime": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.GradeId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.JobId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.LocationId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.PositionId": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.PrimaryAssignmentFlag": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.WorkingHours": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.ProbationEndDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.ProbationPeriod": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extraPayDollarAmount": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extraPayNotes": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.lastReviewDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.lastReviewRating": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.nextReviewDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    }
+                },
+                "layouts": {
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/additionalCompensation": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "metadataRulesVersion": "16.1.8",
+    "imports": {}
+}

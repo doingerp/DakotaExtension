@@ -1,0 +1,114 @@
+{
+    "addMetadataRules": [
+        {
+            "id": "editPendingWorkerChanges",
+            "label": "EditPendingWorkerChanges",
+            "description": "Changes to edit pending worker screen",
+            "status": "active",
+            "overlay": {
+                "fields": {
+                    "DriverLicense.ToDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extraPayNotes": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extraPayDollarAmount": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.lastReviewDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.lastReviewRating": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.nextReviewDate": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "nationalIdentifier": {
+                        "hidden": {
+                            "value": false
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.AssignmentId": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.__FLEX_Context": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extendedProbationEndDate": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extendedProbationPeriod": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF.extendedProbationPeriod_Display": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "employmentAssignments.assignmentsDFF": {
+                        "hidden": {
+                            "value": false
+                        }
+                    }
+                },
+                "layouts": {
+                    "/passports": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/citizenship": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/visasAndPermits": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/additionalCompensation": {
+                        "hidden": {
+                            "value": true
+                        }
+                    },
+                    "/needHelp": {
+                        "hidden": {
+                            "value": true
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "expression": true
+            }
+        }
+      ],
+    "addCollectionMetadataRules": {
+        "metadataRules": []
+    },
+    "imports": {},
+    "metadataRulesVersion": "16.1.8"
+}

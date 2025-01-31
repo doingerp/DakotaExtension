@@ -1,0 +1,26 @@
+{
+    "features": {
+        "extensionEnabled": true
+    },
+    "extensionFrameworkVersion": "2.0.0",
+    "id": "site_hcm_extension",
+    "source.version": "2407",
+    "name": "HCM Extension",
+    "description": "",
+    "version": "0.1",
+    "frameworkVersion": "1.0.0",
+    "dependencies": [
+{
+            "id": "oracle_hcm_employmentprocessUI",
+            "version": ">=2410.0.187"
+        },
+{
+            "id": "oracle_hcm_employmentotherUI",
+            "version": ">=2410.0.37"
+        },
+        {
+            "id": "oracle_hcm_centralcomponentsUI",
+            "version": ">=2410.0.36"
+        }
+    ]
+}
